@@ -1,0 +1,48 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo preencha pelo menos a altura da janela de visualização (viewport height) */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #0074d9; /* Cor do link */
+    transition: border-bottom 0.3s; /* Transição suave para a linha inferior */
+}
+
+a:hover {
+    border-bottom: 1px solid #0074d9; /* Adiciona um sublinhado ao passar o mouse */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex: 1; /* Faz o elemento principal (main) preencher o espaço restante verticalmente */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
